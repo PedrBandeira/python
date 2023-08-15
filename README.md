@@ -52,4 +52,8 @@ Em resumo, Python é uma linguagem de programação popular e influente, conheci
 ### Conteúdo do Curso
 
 | Exercício | Link     |
-|    :----:   |  :---: | 
+|    :----:   |  :---: |
+| Nome, idade e peso | [aula01]() |
+| Desafio 01 - Boas-vindas | [desafio01]() |
+| Desafio 02 - Dia, mês e ano | [desafio02]() |
+| Desafio 03 - Soma dois números | [desafio03]() |
