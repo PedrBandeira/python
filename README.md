@@ -56,4 +56,5 @@ Em resumo, Python é uma linguagem de programação popular e influente, conheci
 | Olá, Mundo! | [ex001](https://github.com/PedrBandeira/python/blob/main/scripts/ex001.py)
 | Prazer em conhecer! | [ex002](https://github.com/PedrBandeira/python/blob/main/scripts/ex002.py) |
 | Soma entre dois números | [ex003](https://github.com/PedrBandeira/python/blob/main/scripts/ex003.py) |
-| Dissecando uma variável | [ex004](https://github.com/PedrBandeira/python/blob/main/scripts/ex004.py)
+| Dissecando uma variável | [ex004](https://github.com/PedrBandeira/python/blob/main/scripts/ex004.py) |
+| Operadores Aritméticos | [ex005](https://github.com/PedrBandeira/python/blob/main/scripts/ex005.py)
