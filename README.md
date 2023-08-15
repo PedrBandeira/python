@@ -58,7 +58,6 @@ Em resumo, Python é uma linguagem de programação popular e influente, conheci
 | Soma entre dois números | [ex003](https://github.com/PedrBandeira/python/blob/main/scripts/ex003.py) |
 | Dissecando uma variável | [ex004](https://github.com/PedrBandeira/python/blob/main/scripts/ex004.py) |
 | Operadores Aritméticos | [ex005](https://github.com/PedrBandeira/python/blob/main/scripts/ex005.py) |
-
 | Sucessor e Antecessor | [ex006](https://github.com/PedrBandeira/python/blob/main/scripts/ex006.py) |
 | Dobro, triplo e raiz quadrada | [ex007](https://github.com/PedrBandeira/python/blob/main/scripts/ex007.py) |
 | Média de duas notas | [ex008](https://github.com/PedrBandeira/python/blob/main/scripts/ex008.py) |
