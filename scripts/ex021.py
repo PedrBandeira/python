@@ -6,7 +6,7 @@ catetoOposto = float(input('Digite o comprimento do cateto oposto: '))
 catetoAdjacente = float(input('Digite o comprimento do cateto adjacente: '))
 
 # Calcula o comprimento da hipotenusa usando o teorema de Pitágoras
-hipotenusa = sqrt(pow(catetoOposto,2) + pow(catetoAdjacente,2))
+hipotenusa = sqrt(pow(catetoOposto,2) + pow(catetoAdjacente,2)) # ou math.hypot(catetoOposto, catetoAdjacente)
 
 # Exibe o comprimento da hipotenusa
 print(f"O comprimento da hipotenusa é {hipotenusa:.2f}")
