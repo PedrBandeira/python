@@ -65,4 +65,5 @@ Em resumo, Python é uma linguagem de programação popular e influente, conheci
 | Real para Dolar | [ex010](https://github.com/PedrBandeira/python/blob/main/scripts/ex010.py) |
 | Rendimento Tinta-Área | [ex011](https://github.com/PedrBandeira/python/blob/main/scripts/ex011.py) |
 | Desconto no produto | [ex012](https://github.com/PedrBandeira/python/blob/main/scripts/ex012.py) |
-| Aumento no Salário | [ex013](https://github.com/PedrBandeira/python/blob/main/scripts/ex013.py)
+| Aumento no Salário | [ex013](https://github.com/PedrBandeira/python/blob/main/scripts/ex013.py) |
+| Conversor de Medidas | [ex014](https://github.com/PedrBandeira/python/blob/main/scripts/ex014.py) |

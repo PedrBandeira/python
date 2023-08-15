@@ -5,8 +5,8 @@
 nome = input('Qual é o seu nome? ')
 
 # Lê as notas (float para permitir casas decimais)
-nota1 = int(input('Digite a primeira nota: '))
-nota2 = int(input('Digite a segunda nota: '))
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
 
 # Calcula a média
 media = (nota1 + nota2) / 2
@@ -15,4 +15,4 @@ media = (nota1 + nota2) / 2
 status = 'APROVADO' if media >= 7 else 'REPROVADO'
 
 # Exibe a mensagem formatada
-print(f"Olá, {nome}. A média entre {nota1} e {nota2} é {media:.2f} e você foi {status}.")
+print(f"Olá, {nome}. A média entre {nota1} e {nota2} é {media:.1f} e você foi {status}.")
