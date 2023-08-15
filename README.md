@@ -53,7 +53,7 @@ Em resumo, Python é uma linguagem de programação popular e influente, conheci
 
 | Exercício | Link     |
 |    :----:   |  :---: |
-| Nome, idade e peso | [aula01]() |
-| Desafio 01 - Boas-vindas | [desafio01]() |
-| Desafio 02 - Dia, mês e ano | [desafio02]() |
-| Desafio 03 - Soma dois números | [desafio03]() |
+| Nome, idade e peso | [aula01](https://github.com/PedrBandeira/python/blob/main/scripts/aula01.py) |
+| Desafio 01 - Boas-vindas | [desafio01](https://github.com/PedrBandeira/python/blob/main/scripts/desafio01.py) |
+| Desafio 02 - Dia, mês e ano | [desafio02](https://github.com/PedrBandeira/python/blob/main/scripts/desafio02.py) |
+| Desafio 03 - Soma dois números | [desafio03](https://github.com/PedrBandeira/python/blob/main/scripts/desafio03.py) |
