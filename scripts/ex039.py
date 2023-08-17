@@ -3,12 +3,12 @@
 terceiro lado. No código, lemos os comprimentos de três retas (a, b e c) e verificamos se a soma de quaisquer dois lados
 é maior que o terceiro, indicando a formação de um triângulo."""
 
-a = float(input('Digite o valor da primeira reta: '))
-b = float(input('Digite o valor da segunda reta: '))
-c = float(input('Digite o valor da terceira reta: '))
+a = float(input('Digite o valor da primeiro segmento: '))
+b = float(input('Digite o valor da segundo segmento: '))
+c = float(input('Digite o valor da terceiro segmento: '))
 
 
 if (a + b > c) and (a + c > b) and (b + c > a):
-    print('Pode formar um triângulo!')
+    print('\033[32mOs segmentos acima podem formar um triângulo!\033[m')
 else:
-    print('Não pode formar um triângulo!')
+    print('\033[31mOs segmentos acima não podem formar um triângulo!\033[m')

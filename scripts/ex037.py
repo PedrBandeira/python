@@ -17,7 +17,7 @@ if num2 > num1 and num2 > num3:
 if num3 > num1 and num3 > num2:
     maior = num3
 
-print(f"Entre os valores {num1}, {num2} e {num3}, o menor é {menor} e o maior é {maior}")
+print(f"Entre os valores {num1}, {num2} e {num3}, o \033[1mmenor é {menor}\033[m e o \033[1mmaior é {maior}!\033[m")
 
 # Esse método coloca as variáveis numa lista, ordena os itens do menor para o maior.
 # numeros = sorted([num1, num2, num3])
