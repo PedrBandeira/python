@@ -1,48 +1,51 @@
-# Jogo de Jokenpô, as regras são:
-# Pedra vence tesoura;
-# Tesoura vence papel;
-# Papel vence pedra.
+# Jogo de Jokenpô
 
 from random import randint
+from time import sleep
 
-pedra = 1
-papel = 2
-tesoura = 3
+itens = ('Pedra', 'Papel', 'Tesoura')
 
 print('--- Jogando Jokenpô ---')
 print('Regras:\n'
       'Pedra vence tesoura\n'
       'Tesoura vence papel\n'
       'Papel vence pedra.\n')
-escolhaComputador = randint(pedra, tesoura)
+escolhaComputador = randint(0, 2)
 print('Escolha um item:\n'
-      '[1] Pedra 🪨\n'
-      '[2] Papel 📄\n'
-      '[3] Tesoura ✂️'
+      '[0] Pedra 🪨\n'
+      '[1] Papel 📄\n'
+      '[2] Tesoura ✂️'
       )
 escolhaJogador = int(input('Qual item você escolhe? '))
 
-if 1 <= escolhaJogador <= 3:
-    if escolhaComputador == pedra:
-        if escolhaJogador == pedra:
-            print('EMPATE! Ambos escolheram [1] Pedra 🪨.')
-        elif escolhaJogador == papel:
-            print('Venceu! Você escolheu [2] Papel 📄 e o computador escolheu [1] Pedra 🪨.')
+print('JO')
+sleep(0.2)
+print('KEN')
+sleep(0.2)
+print('PÔ')
+sleep(0.2)
+
+if 0 <= escolhaJogador <= 2:
+    if escolhaComputador == 0:
+        if escolhaJogador == 0:
+            print('EMPATE! Ambos escolheram [0] Pedra 🪨.')
+        elif escolhaJogador == 1:
+            print('Venceu! Você escolheu [1] Papel 📄 e o computador escolheu [0] Pedra 🪨.')
         else:
-            print('Perdeu! Você escolheu [3] Tesoura ✂️ e o computador escolheu [1] Pedra 🪨.')
-    elif escolhaComputador == papel:
-        if escolhaJogador == pedra:
-            print('Perdeu! Você escolheu [1] Pedra 🪨 e o computador escolheu [2] Papel 📄.')
-        elif escolhaJogador == papel:
-            print('Empate! Ambos escolheram [2] Papel 📄.')
+            print('Perdeu! Você escolheu [2] Tesoura ✂️ e o computador escolheu [0] Pedra 🪨.')
+    elif escolhaComputador == 1:
+        if escolhaJogador == 0:
+            print('Perdeu! Você escolheu [0] Pedra 🪨 e o computador escolheu [1] Papel 📄.')
+        elif escolhaJogador == 1:
+            print('Empate! Ambos escolheram [1] Papel 📄.')
         else:
-            print('Venceu! Você escolheu [3] Tesoura ✂️ e o computador escolheu [2] Papel 📄.')
+            print('Venceu! Você escolheu [2] Tesoura ✂️ e o computador escolheu [1] Papel 📄.')
     else: # [3] Tesoura
-        if escolhaJogador == pedra:
-            print('Venceu! Você escolheu [1] Pedra 🪨 e o computador escolheu [3] Tesoura ✂️.')
-        elif escolhaJogador == papel:
-            print('Perdeu! Você escolheu [2] Papel 📄 e o computador escolheu [3] Tesoura ✂️.')
+        if escolhaJogador == 0:
+            print('Venceu! Você escolheu [0] Pedra 🪨 e o computador escolheu [2] Tesoura ✂️.')
+        elif escolhaJogador == 1:
+            print('Perdeu! Você escolheu [1] Papel 📄 e o computador escolheu [2] Tesoura ✂️.')
         else:
-            print('EMPATE! Ambos escolheram [3] Tesoura ✂️.')
+            print('EMPATE! Ambos escolheram [2] Tesoura ✂️.')
 else:
-    print('Escolha Inválida. Escolha entre [1] Pedra 🪨, [2] Papel 📄 e [3] Tesoura ✂️!')
+    print('Escolha Inválida. Escolha entre [0] Pedra 🪨, [1] Papel 📄 e [2] Tesoura ✂️!')

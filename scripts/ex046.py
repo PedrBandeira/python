@@ -1,5 +1,5 @@
 # O programa determina a partir da idade do usuário em qual categoria ele se encaixa:
-# mirim (<9), infantil (<14), junior (<19), senior (<20) e master (>20)
+# mirim (<9), infantil (<14), junior (<19), senior (<25) e master (>25)
 
 from datetime import date
 
@@ -13,7 +13,7 @@ elif idade <= 14:
     print(f"Você têm (ou fará) {idade} anos. E se encaixa na categoria INFANTIL")
 elif idade <= 19:
     print(f"Você têm (ou fará) {idade} anos. E se encaixa na categoria JÚNIOR")
-elif idade <= 20:
+elif idade <= 25:
     print(f"Você têm (ou fará) {idade} anos. E se encaixa na categoria SÊNIOR")
 else:
     print(f"Você têm (ou fará) {idade} anos. E se encaixa na categoria MASTER")

@@ -8,7 +8,7 @@ media = (nota1 + nota2)/2
 if 0 <= nota1 <= 10 and 0 <= nota2 <= 10:
     if media >= 7:
         print(f"A média entre {nota1} e {nota2} é igual à {media}. Sendo maior ou igual à 7, você foi APROVADO!")
-    elif 5 <= media <= 6.9:
+    elif 5 <= media < 7:
         print(f"A média entre {nota1} e {nota2} é igual à {media}. "
               f"Sendo menor que 7 e maior que 5, você está em RECUPERAÇÃO!")
     else:
