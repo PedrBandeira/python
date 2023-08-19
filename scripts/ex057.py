@@ -5,17 +5,15 @@ print('-' * 38, ' Verificador de Números Primos ', '-' * 38)
 print('Um número primo é um número inteiro maior que 1 que possui apenas dois divisores diferentes: 1 e ele mesmo')
 print('-' * 109)
 numero = int(input('Digite um número: '))
-if numero < 2:
-    print(f"{numero} não é um número primo.")
-elif numero == 2:
-    print(f"2 é um número é primo.")
-else:
-    primo = True
-    for c in range(2, int(numero ** 0.5) + 1):
-        if numero % c == 0:
-            primo = False
-            break
-    if primo:
-        print(f"{numero} é um número primo.")
+totalDivisiveis = 0
+for c in range(1, numero + 1):
+    if numero % c == 0:
+        print('\033[33m', c, end=' ')
+        totalDivisiveis += 1
     else:
-        print(f"{numero} não é um número primo.")
+        print('\033[31m', c, end=' ')
+print(f"\n\033[mO número {numero} foi divisível {totalDivisiveis} vezes")
+if totalDivisiveis == 2:
+    print('E por isso ele É PRIMO!')
+else:
+    print('E por isso ele NÃO É PRIMO!')

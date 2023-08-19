@@ -6,10 +6,11 @@ print('--- Calculando uma P.A. (Progressão Aritmética) ---')
 print('-' * 51)
 termoInicial = int(input('Digite o primeiro termo da sequência: '))
 razao = int(input('Digite a razão (diferença constante) da sequência: '))
-enezimoTermo = 10
+decimo = termoInicial + (10 - 1) * razao
 print('-' * 51)
-print("Os 10 primeiros termos da progressão são:")
-for c in range(enezimoTermo):
+print("Os 10 primeiros termos da progressão são: ( ", end="")
+for c in range(termoInicial, decimo + razao, razao):
     print(termoInicial, end=" ")
     termoInicial += razao
     sleep(0.2)
+print(')')
