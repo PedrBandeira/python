@@ -1,6 +1,5 @@
 # Lê o nome e duas notas de vários alunos e guarda tudo em uma lista composta. No final:
-# A) Mostra o boletim contendo a média de cada um e
-# permite que o usuário possa mostrar as notas de cada aluno individualmente.
+# Mostra o boletim contendo a média de cada um e # permite que o usuário possa mostrar as notas de cada aluno.
 
 listaAlunos = list()
 
@@ -20,17 +19,17 @@ while True:
     elif continuar != 'S':
         continuar = input('Opção inválida. Deseja continuar? [S/N] ').strip().upper()[0]
 
-print('=-' * 60)
-print(f"{'Nº   NOME    MÉDIA':^30}")
+print('=-' * 30)
+print(f"{'Nº':<4}{'NOME':<15}{'MÉDIA':>6}")
 print('=-' * 30)
 
 for numero, aluno in enumerate(listaAlunos):
-    print(f"{numero:<4} {aluno[0]:<12} {aluno[1]:.1f}")
+    print(f"{numero:<4}{aluno[0]:<15}{aluno[1]:>6.1f}")
 
 print('=-' * 30)
 
 while True:
-    mostrar = int(input('Mostrar a nota de qual aluno? '))
+    mostrar = int(input('Mostrar a nota de qual aluno? (999 interrompe): '))
     if mostrar == 999:
         print('FINALIZANDO...')
         print('<<< VOLTE SEMPRE >>>')
